@@ -14,6 +14,7 @@
 - 使用 `axios` 请求后台数据
 - 使用 `Vuex` 实现组件间的数据共享
 - 使用 `Vue Router` 进行路由间切换，结合异步组件和过渡动画提高用户体验
+- 使用 `Capacitor` 进行安卓应用开发
 
 ### 技术栈
 `JavaScript`、 `Stylus`、 `Vue`、 `Vuex`、 `Vue Router`、 `axios`、 `Babel(ES6)`
@@ -39,3 +40,6 @@ npm run build
 
 ### Customize configuration 自定义配置
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Capacitor 开发指南
+See [Capacitor Docs](https://capacitorjs.com/docs/basics/workflow).
