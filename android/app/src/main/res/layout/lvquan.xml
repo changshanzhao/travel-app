@@ -10,9 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@color/material_dynamic_neutral100"
-        app:layout_anchor="@+id/webview"
         app:layout_anchorGravity="bottom|center"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="UnknownIdInLayout">
 
         <TableRow
             android:layout_width="272dp"
@@ -197,7 +197,8 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/bed" />
+                        app:srcCompat="@drawable/bed"
+                        tools:ignore="DuplicateIds" />
 
                     <TextView
                         android:id="@+id/bedTxt"
@@ -226,7 +227,8 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/guide" />
+                        app:srcCompat="@drawable/guide"
+                        tools:ignore="DuplicateIds" />
 
                     <TextView
                         android:id="@+id/guideTxt"
@@ -253,7 +255,8 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/star" />
+                        app:srcCompat="@drawable/star"
+                        tools:ignore="DuplicateIds" />
 
                     <TextView
                         android:id="@+id/wifiTxt"
