@@ -1,5 +1,5 @@
 # Vue2.6 实战 高仿去哪儿旅行、携程移动端 App
-[在线演示](http://cuihaojie.top/travel)
+[在线演示](https://lvjian.pages.dev/#/)
 
 <div align="center">
     <img src="images/Screenshot_2019-08-11-17-24-08-364_com.android.ch.png" width=250/>
