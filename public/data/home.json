@@ -38,49 +38,49 @@
       "title": "grid-nav-hotel",
       "children": [{
         "id": 101,
-        "title": "酒店"
+        "title": "亲子"
       }, {
         "id": 102,
-        "title": "民宿·客栈",
-        "tag": "大促"
+        "title": "海边",
+        "tag": "见水"
       }, {
         "id": 103,
-        "title": "机票/火车票+酒店",
-        "hot": "方便又便宜"
+        "title": "爬山",
+        "tag": "见山"
       }]
     }, {
       "id": 12,
       "title": "grid-nav-flight",
       "children": [{
         "id": 201,
-        "title": "机票"
+        "title": "定制游",
+        "hot": "方便又便宜"
       }, {
         "id": 202,
-        "title": "火车票",
-        "tag": "暑运"
+        "title": "聚会",
+        "tag": "大促"
       }, {
         "id": 203,
-        "title": "汽车·船票"
+        "title": "拍照"
       }, {
         "id": 204,
-        "title": "打车·租车"
+        "title": "滑雪"
       }]
     }, {
       "id": 13,
       "title": "grid-nav-travel",
       "children": [{
         "id": 301,
-        "title": "旅游",
-        "tag": "678月节"
+        "title": "露营"
       }, {
         "id": 302,
-        "title": "高铁游"
+        "title": "自然"
       }, {
         "id": 303,
-        "title": "邮轮游"
+        "title": "文艺"
       }, {
         "id": 304,
-        "title": "定制游"
+        "title": "绿植"
       }]
     }],
     "subnavs": [{
