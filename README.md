@@ -14,7 +14,7 @@
 <div align="center">
     <img src="images/1 (7).jpg" width=250/>
     <img src="images/1 (8).jpg" width=250/>
-    <img src="images/1 (6).jpg" width=250/>
+    <img src="images/1 (9).jpg" width=250/>
 </div>
 
 ### 介绍：
