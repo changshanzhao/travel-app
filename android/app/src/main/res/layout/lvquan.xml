@@ -60,7 +60,7 @@
                 android:background="@null"
                 android:backgroundTint="#00000000"
                 android:text="旅圈"
-                android:textColor="@color/material_dynamic_neutral_variant20"
+                android:textColor="@color/design_default_color_secondary"
                 android:textStyle="bold" />
 
             <Button
@@ -302,19 +302,21 @@
                 android:layout_marginBottom="16dp"
                 android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/priceTxt"
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button"
+                    style="@android:style/Widget.Button"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="clip_vertical"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="32dp"
                     android:layout_weight="0.5"
-                    android:text="$20"
-                    android:textColor="@color/black"
-                    android:textSize="34sp"
+                    android:background="@drawable/intro_background"
+                    android:text="匹配玩伴"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/button"
+                    android:id="@+id/button1"
                     style="@android:style/Widget.Button"
                     android:layout_width="0dp"
                     android:layout_height="50dp"
