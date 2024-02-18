@@ -35,6 +35,7 @@
         </provider>
 
         <activity android:name=".LvQuan"></activity>
+        <activity android:name=".DingZhi"></activity>
     </application>
 
     <!-- Permissions -->

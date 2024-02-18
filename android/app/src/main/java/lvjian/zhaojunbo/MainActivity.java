@@ -27,13 +27,22 @@ public class MainActivity extends BridgeActivity {
         }
 
         this.load();
-        Button ok = (Button) this.findViewById(com.getcapacitor.android.R.id.button10);
-        ok.setOnClickListener(new ButtonListener());
+        Button lq = (Button) this.findViewById(com.getcapacitor.android.R.id.button10);
+        Button dz = (Button) this.findViewById(com.getcapacitor.android.R.id.button9);
+        lq.setOnClickListener(new ButtonListener_lq());
+        dz.setOnClickListener(new ButtonListener_dz());
     }
-    private class ButtonListener implements View.OnClickListener{
+    private class ButtonListener_lq implements View.OnClickListener{
         @Override
         public void onClick(View v){
             Intent intent=new Intent(MainActivity.this,LvQuan.class);//设置切换对应activity
+            startActivity(intent);//开始切换
+        }
+    }
+    private class ButtonListener_dz implements View.OnClickListener{
+        @Override
+        public void onClick(View v){
+            Intent intent=new Intent(MainActivity.this,DingZhi.class);//设置切换对应activity
             startActivity(intent);//开始切换
         }
     }
