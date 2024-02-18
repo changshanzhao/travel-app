@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < 100; i++) {
             StarModel data = new StarModel();
             data.setUserId("" + i);
-            data.setNickName("彼岸雨敲窗" + i);
+            data.setNickName("旅友" + i);
             data.setPhotoUrl("https://fukaimei.oss-cn-beijing.aliyuncs.com/images/ic_user.png?x-oss-process=style/thumb");
             mStarModelList.add(data);
         }
